@@ -1,6 +1,8 @@
 # Keylogger Python
 Os comparto el keylogger en python3 para capturar las pulsaciones del teclado.
 
+⚠️ NOTA: Este contenido esta compartido con fines Éticos y esta creado para prácticar en Entornos Controlados sin dañar a terceras personas, en ningún momento se hace apología al uso de estos recursos para fines maliciosos
+
 ## Modo de uso
 Para ejecutar el keylogger, vamos a seguir los siguientes pasos:
 
