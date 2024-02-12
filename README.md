@@ -1,8 +1,27 @@
 # Keylogger Python
- Keylogger en Python para capturar las pulsaciones del teclado.
+Os comparto el keylogger en python3 para capturar las pulsaciones del teclado.
 
-Modo de uso
+## Modo de uso
 Para ejecutar el keylogger, vamos a seguir los siguientes pasos:
 
-python3 NetWork-Scanner.py -i ens33
-Donde tenemos que pasarle al parametro -i, la interfaz de red que nos interese.
+Clonamos el repositorio en nuestro equipo:
+```bash
+git clone https://github.com/BeniBeastt/Keylogger-Python/
+cd Keylogger-Python
+```
+
+Una vez clonado, tendremos el archivo server.py y keylogger.py (NOTA: Cambiar la IP en el script por la vuestra.)
+
+Ejecutamos el server.py, para colocarnos en escucha en el equipo
+
+```bash
+python3 server.py
+```
+
+Y finalmente, ejecutamos el keylogger.py
+
+```bash
+python3 keylogger.py
+```
+
+Y si probamos a pulsar teclas, veremos que en el server nos deberian de llegar de forma correcta esas pulsaciones.
