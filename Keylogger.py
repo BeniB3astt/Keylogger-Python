@@ -5,7 +5,7 @@ import socket
 import sys
 import signal
 
-# Colocar tu IP aquí
+# Colocar la IP del servidor aquí
 host = '192.168.1.64'
 port = 443
 
