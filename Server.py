@@ -35,7 +35,7 @@ def file_write(keys):
         file.write(decoded_text + ' ')
 
 
-print(f"\n[+] Servidor en escucha desplegado en el host {host}")
+print(f"\n[+] Servidor en escucha desplegado en el host {host}:{port}")
 conn, address = s.accept()
 
 print("Connected to Client: " + str(address))
