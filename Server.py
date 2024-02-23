@@ -54,3 +54,4 @@ while True:
         break
     print(str(data))
 conn.close()
+s.close()
